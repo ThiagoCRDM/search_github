@@ -3,5 +3,6 @@ import 'package:search_github/app/modules/search/domain/entities/search_entitie.
 import 'package:search_github/app/modules/search/domain/errors/errors_result_search.dart';
 
 abstract class ISearchByTextRepository {
-  Future<Either<Failure, List<ResultSearchEntitie>>> getUsers(searchText);
+  Future<Either<Failure, List<ResultSearchEntitie>>> getUsers(
+      String searchText);
 }
