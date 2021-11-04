@@ -12,7 +12,6 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.grey,
-      child: Image.asset('assets/png/GitHub-Mark-Light-120px-plus.png'),
     );
   }
 }
