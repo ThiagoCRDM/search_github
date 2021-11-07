@@ -52,6 +52,7 @@ class _SearchPageState extends ModularState<SearchPage, SearchStore> {
         centerTitle: true,
       ),
       body: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 16),
         child: Column(
           children: [
             Padding(
