@@ -2,8 +2,8 @@ name: CI/CD
 
 on:
   push:
-   tag:
-    - v*
+    tag:
+      - v*
 
 jobs:
   flutter_test:
